@@ -4,5 +4,6 @@ applications:
   memory: 128M
   instances: 1
   random-route: true
-  buildpacks:
-  - https://github.com/cloudfoundry/nodejs-buildpack.git
+  env:
+   TITLE: Hi priya
+   MESSAGE: I am updating environment variables
